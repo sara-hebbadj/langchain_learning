@@ -8,3 +8,9 @@ model = ChatGoogleGenerativeAI(
 )
 response = model.invoke("say hello in one short sentence")
 print (response.text)
+
+## implement first LangChain Gemini model invocation
+## Load an API key.
+## Connect LangChain to Gemini.
+## Call the model with invoke().
+## Print the response.
